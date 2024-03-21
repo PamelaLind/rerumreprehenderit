@@ -1,0 +1,70 @@
+{
+  "name": "rerumreprehenderit",
+  "version": "1.0.0",
+  "description": "Web3 Contracts for Metronome Token",
+  "keywords": [
+    "consectetur",
+    "aut",
+    "ipsa",
+    "dicta",
+    "optio"
+  ],
+  "bugs": {
+    "url": "https://github.com/PamelaLind/rerumreprehenderit.git/issues"
+  },
+  "license": "MIT",
+  "author": "JaylonParisian",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PamelaLind/rerumreprehenderit.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "check-tag-matches": "^1.0.0",
+    "cross-env": "^5.1.6",
+    "dependency-check": "^3.1.0",
+    "eslint": "^4.19.1",
+    "eslint-config-bloq": "^1.2.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsdoc": "^3.7.0",
+    "eslint-plugin-mocha": "^5.0.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prefer-arrow": "^1.1.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "husky": "^0.14.3",
+    "jest": "^22.4.4",
+    "npm-check": "^5.7.1",
+    "web3": "^1.0.0-beta.34",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  },
+  "preferGlobal": false,
+  "browser": "./dist/metronome.min.js",
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 70,
+        "functions": 70,
+        "lines": 70,
+        "statements": 70
+      }
+    },
+    "roots": [
+      "test/"
+    ]
+  }
+}
